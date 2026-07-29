@@ -16,3 +16,5 @@ while i <= n:
     i +=1
     
     print("Total sum =", sum)
+    
+#WAP to find the factorial of 1st n numbers 
