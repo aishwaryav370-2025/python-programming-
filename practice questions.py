@@ -1,22 +1,5 @@
-#Write a recursion function to calculatethe sum of first n natural numbers 
+#create a new file "practice.txt" using python.Add the folloowing data in it:
 
-def sum_natural(n):
-    if n == 0:
-        return 0 
-    print(n)
-    return sum_natural(n-1) + n 
-
-print(sum_natural(5))
-
-#Write a recursive function to print all elements in a list
-#Hint: use list & index as parameters 
-
-def print_list(list, index):
-    if(index == len(list)):
-        return
-    print(list[index])
-    print_list(list, index + 1)
-    
-fruits = ["apple", "banana", "cherry", "date"]
-print_list(fruits, 0)
-
+with open("practice.txt", "w") as f:
+    f.write("Hi everyone,\nwe are learning file I/O\n")
+    f.write("Using java.\nI like programming in java")
