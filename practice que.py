@@ -1,16 +1,14 @@
-#WAP to print the len of the list (list is the parameter)  
-
-cities = ("delhi", "gurgaon", "noida", "pune", "mumbai", "bengaluru")
-heroes = ("thor", "yash", " captain america", "shakti man")
-
-def print_len(list):
-    print(len(list))
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+        
+    def area(self):
+        return (22/7) * self.radius ** 2 
     
-print_len(cities)
-print_len(heroes)
-
-#WAF to print the elements of a list in a single line (list is the parameter)
-
-movies = ("toxic", "kgf", "googly", "lucky")
-print(movies[0], end=" ")
-print(movies[1], end=" ")
+    def perimeter(self):
+        return 2 * (22/7) * self.radius 
+    
+c1 = Circle(21)
+print(c1.area())
+print(c1.perimeter())
+    
